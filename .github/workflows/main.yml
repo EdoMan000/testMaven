@@ -14,7 +14,7 @@ jobs:
       with:
         ref: main # specify the branch to checkout
     - name: Setup Java
-      uses: actions/setup-java@v2.6.2 # update the version to the latest
+      uses: actions/setup-java@v1 # update the version to the latest
       with:
         java-version: '20' # update the Java version to 20
         distribution: 'adopt' # specify the distribution parameter as 'adopt'
