@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2.5.1 # update the version to the latest
+    - uses: actions/checkout@v2 # update the version to the latest
       with:
         ref: main # specify the branch to checkout
     - name: Setup Java
