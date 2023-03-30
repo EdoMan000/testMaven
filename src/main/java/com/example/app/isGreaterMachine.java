@@ -16,6 +16,7 @@ public class isGreaterMachine {
         reader.close();
         System.out.println("\n");
         boolean res;
+        System.out.println("\n isGreaterMachine is thinking... \n\n");
         try {
             res = isGreater(x, y);
         } catch (sameNumberException e) {
