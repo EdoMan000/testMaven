@@ -17,7 +17,6 @@ jobs:
       uses: actions/setup-java@v1 # update the version to the latest
       with:
         java-version: '20' # update the Java version to 20
-        distribution: 'adopt' # specify the distribution parameter as 'adopt'
     - name: Build with Maven
       run: mvn clean install
       env:
